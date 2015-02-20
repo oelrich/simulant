@@ -12,7 +12,7 @@ neighbourhood_radius  mean0  error0 mean1  error1 ... meanN errorN
 ## Details
 We randomly place a given number of complexes on a test surface.
 
-The complexes are then counted depending on how they can be covered by a blob. If a blob can be placed so that it covers three complexes those three will be removed and the count for "three neighbours" will be incremented by one. This continiues until the test surface is empty.
+The complexes are then counted depending on how they can be covered by a blob. If a blob can be placed so that it covers three complexes those three will be removed and the count for "three neighbours" will be incremented by one. This continues until the test surface is empty.
 
 The counts are converted to means with error.
 
