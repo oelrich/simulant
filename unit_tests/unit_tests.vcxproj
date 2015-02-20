@@ -93,6 +93,9 @@
     <ClInclude Include="test_helpers.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\simulant\complex.cpp" />
+    <ClCompile Include="..\simulant\complex_impl.cpp" />
+    <ClCompile Include="..\simulant\settings.cpp" />
     <ClCompile Include="..\simulant\simulation.cpp" />
     <ClCompile Include="..\simulant\statistics.cpp" />
     <ClCompile Include="simulation_test.cpp" />
